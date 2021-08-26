@@ -29,6 +29,11 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+h1 {
+	background-color: rgba(8, 60, 60, 0.74) ;
+	margin-bottom: 0;
+}
+
 /*Nav Bar Items*/
 #MainNavbar {
 	/*max-height: 152px;*/
@@ -82,6 +87,11 @@ div.container-fluid {
 	background-color: rgba(8, 60, 60, 0.74) ;
 }
 
+.boxwrapper {
+	display: flex;
+	justify-content: center;
+}
+
 .Shitbox {
 	/*width: 200px;*/
 	/*height: 200px;*/
@@ -90,6 +100,7 @@ div.container-fluid {
 	padding: 10px;
 	height: 400px;
 	position: relative;
+	max-width: 800px;
 }
 
 .backtotop {
