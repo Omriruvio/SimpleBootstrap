@@ -1,0 +1,116 @@
+/*body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
+/*Scroll bar shenanigans*/
+body::-webkit-scrollbar {
+  	/*width: 15px;*/
+	background-color: #1e2122;
+	color: #a29c91
+}
+
+body::-webkit-scrollbar-corner {
+	background-color: #17191a;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #424649;
+}
+/*End Scroll bar shenanigans*/
+
+/*Toggled menu container*/
+.navbar-collapse.collapse.show#NavbarItems {
+	/*width: 100%;*/
+	/*background-color: rgba(102, 133, 133, 0.15) ;*/
+	padding: 0!important;
+	margin: 0!important;
+
+}
+
+/*Nav Bar Items*/
+#MainNavbar {
+	/*max-height: 152px;*/
+	margin: 0!important;
+	padding: 0!important;
+	line-height: 2.5em;
+
+}
+
+/*Burger icon*/
+.navbar-toggler {
+	font-size: .7rem;
+	margin-right: 1vw;
+
+}
+
+/*Navbar Brand*/
+.navbar-brand {
+	margin-left: 3.5vw;
+}
+
+a.nav-link {
+	text-align: center;
+	border-color: rgba(28, 221, 221, 0.33)!important;
+	border-bottom: solid;
+	width: 100%;
+	margin-bottom: -1px;
+	padding: 0.3vh;
+	/*line-height: 1rem;*/
+	/*background-color: rgba(102, 133, 133, 0.15) ;*/
+}
+
+
+.navbar-toggler:hover {
+	background-color: rgba(28, 221, 221, 0.33) ;
+	
+}
+
+div.container-fluid {
+	
+	/*padding: 0;*/
+    /*width: 90%!important;*/
+    /*margin: 0 auto -5px;*/
+    /*margin-bottom: -6px;*/
+
+}
+
+/*Main Section*/
+#MainSection {
+	height: 2500px;
+	background-color: rgba(8, 60, 60, 0.74) ;
+}
+
+.Shitbox {
+	/*width: 200px;*/
+	/*height: 200px;*/
+	border: 2px solid black;
+	margin-bottom: 15px;
+	padding: 10px;
+	height: 550px;
+	position: relative;
+}
+
+.backtotop {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	right: 0; /*For some reason right: -10 is applied if this line does not exist*/
+	background-color: rgba(8, 60, 60, 0.74);  
+	padding: 0;
+	margin: 0;
+	line-height: 10vh;
+
+}
+
+a:visited {
+	color: inherit;
+}
+
+
+
+
+
