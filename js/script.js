@@ -1,8 +1,8 @@
 $(document).ready( function () {
 
-    $("#navbarToggler").blur(function (event) {
+    $(".row div, h1").click(function (event) {
        var screenWidth = window.innerWidth;
-       if (screenWidth < 720) {
+       if (screenWidth < 768) {
            $("#NavbarItems").collapse('hide');
        }
     });
