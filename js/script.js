@@ -10,7 +10,7 @@ $(document).ready( function () {
     // });
 
 
-    $("#MainSection, h1").click(function (event) {
+    $("#MainSection, h1").click(function () {
        var screenWidth = window.innerWidth;
        if (screenWidth < 768) {
            $("#NavbarItems").collapse('hide');
